@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hhr SYSTEM "catalog_19031648.dtd">
+<?xml-stylesheet href="catalog_19031648.css" type="text/css"?>
+<hhr xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="catalog_19031648.xsd">
+    <hhr_details>
+        <hhr_logo/>
+        <hhr_name>Holy Hit Records</hhr_name>
+        <hhr_address>
+            <hhr_city>Address: Kathmandu</hhr_city>
+            <hhr_state>Bagmati</hhr_state>
+            <hhr_zip>44600</hhr_zip>
+            <hhr_country>Nepal</hhr_country>
+        </hhr_address>
+        <hhr_contact>01-432765</hhr_contact>
+        <hhr_site>www.holy-hit-records.com.np</hhr_site>
+        <hhr_info> Holy Hit records is a retail outlet record store that has been selling music since early 50s. Specializing in
+        Rythm and Blues, Hiphop, Gospel, Rock, Jazz, Holy Hit has been a go to for everyone for a curated set of record songs and music connoisseur.</hhr_info>
+    </hhr_details>
+    <I_was_never_there>
+        <song_details>
+            <cover_image id="img1"/>
+            <artist>
+              <contributing_artist> Contributing Artist: The Weeknd</contributing_artist>
+              <featured_artist>Featured Artist: Gesaffelstein</featured_artist>
+            </artist>
+            <album> Album: My Dear Melancholy,</album>
+            <producer>Producer: Gesaffelstein, Frank Dukes</producer>
+            <writer>Writer: Frank Dukes, Abel Tesfaye, Gesaffelstein</writer>
+            <director>Director: La Mar Taylor</director>
+            <genre>Genre: Instrumental Hip-Hop, RnB Soul</genre>
+            <licensed_by>Licenced by: Universal Music Group, Republic Records and XO Records</licensed_by>
+            <song_length>Song Length: 4:02</song_length>
+            <released_year>Released Date: March 30, 2018</released_year>
+
+        </song_details>
+    </I_was_never_there>
+
+    <Hurt_you>
+        <song_details>
+            <cover_image id="img2"/>
+            <artist>
+              <contributing_artist>Contributing Artist: The Weeknd</contributing_artist>
+              <featured_artist>Featured Artist: Gesaffelstein</featured_artist>
+            </artist>
+            <album>Album: My Dear Melancholy,</album>
+            <producer>Producer: Cirkut, Guy-Manuel de Homem-Christo, Gesaffelstein</producer>
+            <writer>Writer: Cirkut, Guy-Manuel de Homem-Christo, Frank Dukes, Gesaffelstein, The Weeknd</writer>
+            <director>Director: DaHeala</director>
+            <genre>Genre: Instrumental Hiphop, RnB/ Soul </genre>
+            <licensed_by>Licenced By: Universal Music Group, Republic Records and XO Records</licensed_by>
+            <song_length>Song Length: 5:31</song_length>
+            <released_year>Released Year: March 30,2018</released_year>
+        </song_details>
+    </Hurt_you>
+
+    <Norman_F_Rockwell>
+        <song_details>
+            <cover_image id="img3"/>
+            <artist>
+              <contributing_artist>Contributing Artist: Lana Del Ray</contributing_artist>
+              <featured_artist></featured_artist>
+            </artist>
+            <album>Album: Norman F****** Rockwell</album>
+            <producer>Producer: Lana Del Ray, Jack Antonoff</producer>
+            <writer>Writer: Lana Del Ray</writer>
+            <director>Director: Stefanie Plunkett</director>
+            <genre>Genre:Psychdelic Rock, Soft Rock</genre>
+            <licensed_by>Licenced By:  Interscope Records</licensed_by>
+            <song_length>Song Length: 14:07</song_length>
+            <released_year>Released Year: August 30,2019</released_year>
+        </song_details>
+    </Norman_F_Rockwell>
+
+    <Freedom>
+        <song_details>
+            <cover_image id="img4"/>
+            <artist>
+              <contributing_artist>Contributing Artist: Beyonce</contributing_artist>
+              <featured_artist>Featured Artist: Kendrick Lamar</featured_artist>
+            </artist>
+            <album>Album: Lemonade</album>
+            <producer>Producer: Beyonce, Coffer, Just Blaze</producer>
+            <writer>Writer: Beyonce, Kendrick Lamar, Jonny Coffer, Alan Lomax,John Lomax</writer>
+            <director>Director: Beyonce Knowles, Kahlil Joseph, Melina Matsoukas</director>
+            <genre>Genre: Gospel,Pop</genre>
+            <licensed_by>Licenced By: Parkwood Records, Colombia Records</licensed_by>
+            <song_length>Song Length: 2:58</song_length>
+            <released_year>Released Year: September 9,2016</released_year>
+        </song_details>
+    </Freedom>
+
+    <Come_thru>
+        <song_details>
+            <cover_image id="img5"/>
+            <artist>
+              <contributing_artist>Contributing Artist: Summer Walker</contributing_artist>
+              <featured_artist>Featured Artist: Usher</featured_artist>
+            </artist>
+            <album>Album: Over It</album>
+            <producer>Producer: London on da track, Jermaine Dupri</producer>
+            <writer>Writer: Summer Walker, Usher, Raymond IV, Jermaine Dupri</writer>
+            <director>Director: Lacey Duke</director>
+            <genre>Genre: RnB, Soul</genre>
+            <licensed_by>Licenced By: Love Renaissance, Interscope</licensed_by>
+            <song_length>Song Length: 3:00</song_length>
+            <released_year>Released Year: December 28, 2019</released_year>
+        </song_details>
+    </Come_thru>
+
+</hhr>

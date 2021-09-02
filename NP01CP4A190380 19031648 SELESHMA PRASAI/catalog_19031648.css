@@ -1,0 +1,225 @@
+hhr {
+  color: black;
+  background-color: whitesmoke;
+}
+hhr_details {
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  display: block;
+  background-image: url(images/home.jpg);
+}
+
+hhr_logo {
+  background-image: url(images/logo.png);
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 22%;
+}
+
+hhr_name {
+  display: block;
+  font-size: 90px;
+  font-weight: bold;
+  padding-top: 18%;
+  padding-left: 4%;
+  padding-bottom: 3%;
+  letter-spacing: 4px;
+}
+
+hhr_site {
+  font-family: Charcoal, Monaco, monospace;
+  display: block;
+}
+
+hhr_info {
+  display: block;
+  margin-top: 12px;
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+hhr_city,
+hhr_state,
+hhr_zip,
+hhr_country {
+  display: list-item;
+  list-style: none;
+}
+
+hhr_city,
+hhr_state,
+hhr_zip,
+hhr_country,
+hhr_contact {
+  font-family: Charcoal, Monaco, monospace;
+  font-size: 20px;
+  padding-left: 6%;
+  text-align: center;
+  padding-right: 45%;
+}
+hhr_site {
+  text-align: center;
+  padding-right: 45%;
+  padding-left: 6%;
+}
+hhr_contact {
+  padding-left: 27%;
+  text-align: center;
+}
+hhr_info {
+  padding-top: 0%;
+  padding-right: 40%;
+  padding-left: 3%;
+}
+
+I_was_never_there {
+  font-size: 25px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  width: 95%;
+  height: 650px;
+  background-image: url(images/home.jpg);
+  display: block;
+}
+I_was_never_there:before {
+  content: "I was Never there";
+  font-size: 60px;
+  text-decoration: underline;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#img1 {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  background-image: url(images/The_Weeknd_-_After_Hours.png);
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+Hurt_you {
+  font-size: 25px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  width: 95%;
+  height: 650px;
+  background-image: url(images/home.jpg);
+  display: block;
+}
+Hurt_you:before {
+  content: "Hurt You";
+  font-size: 60px;
+  text-decoration: underline;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#img2 {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  background-image: url(images/iwasneverthere.jpg);
+  height: 300px;
+  width: 300px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+Norman_F_Rockwell {
+  font-size: 25px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  width: 95%;
+  height: 650px;
+  background-image: url(images/home.jpg);
+  display: block;
+}
+Norman_F_Rockwell:before {
+  content: "Norman_F_Rockwell";
+  font-size: 60px;
+  text-decoration: underline;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#img3 {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  background-image: url(images/Lana_Del_Rey_-_Norman_Fucking_Rockwell.png);
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+Freedom {
+  font-size: 25px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  width: 95%;
+  height: 650px;
+  background-image: url(images/home.jpg);
+  display: block;
+}
+Freedom:before {
+  content: "Freedom";
+  font-size: 60px;
+  text-decoration: underline;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#img4 {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  background-image: url(images/Beyonce_-_Lemonade_\(Official_Album_Cover\).png);
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+Come_thru {
+  font-size: 25px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  width: 95%;
+  height: 650px;
+  background-image: url(images/home.jpg);
+  display: block;
+}
+Come_thru:before {
+  content: "Come thru";
+  font-size: 60px;
+  text-decoration: underline;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#img5 {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  background-image: url(images/come\ thru.jpeg);
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+artist,
+album,
+procuder,
+writer,
+director,
+genre,
+licensed_by,
+song_length,
+released_year,
+cover_image {
+  display: list-item;
+  list-style: none;
+  font-size: 25px;
+}

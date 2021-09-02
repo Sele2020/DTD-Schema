@@ -1,0 +1,127 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT hhr (hhr_details,I_was_never_there,Hurt_you,Norman_F_Rockwell,
+              Freedom,Come_thru)>
+<!ATTLIST hhr
+  xmlns CDATA #FIXED ''
+  xmlns:xsi CDATA #FIXED 'http://www.w3.org/2001/XMLSchema-instance'
+  xsi:noNamespaceSchemaLocation NMTOKEN #REQUIRED>
+
+<!ELEMENT hhr_details (hhr_logo,hhr_name,hhr_address,hhr_contact,
+                      (hhr_info|hhr_site)+)>
+<!ATTLIST hhr_details
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT I_was_never_there (song_details)>
+<!ATTLIST I_was_never_there
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Hurt_you (song_details)>
+<!ATTLIST Hurt_you
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Norman_F_Rockwell (song_details)>
+<!ATTLIST Norman_F_Rockwell
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Freedom (song_details)>
+<!ATTLIST Freedom
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Come_thru (song_details)>
+<!ATTLIST Come_thru
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT hhr_logo EMPTY>
+<!ATTLIST hhr_logo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT hhr_name (#PCDATA)>
+<!ATTLIST hhr_name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT hhr_address (hhr_city,hhr_state,hhr_zip,hhr_country)>
+<!ATTLIST hhr_address
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT hhr_contact (#PCDATA)>
+<!ATTLIST hhr_contact
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT hhr_info (#PCDATA)>
+<!ATTLIST hhr_info
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT hhr_site (#PCDATA)>
+<!ATTLIST hhr_site
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT hhr_city (#PCDATA)>
+<!ATTLIST hhr_city
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT hhr_state (#PCDATA)>
+<!ATTLIST hhr_state
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT hhr_zip (#PCDATA)>
+<!ATTLIST hhr_zip
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT hhr_country (#PCDATA)>
+<!ATTLIST hhr_country
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT song_details (cover_image,artist,album,producer,writer,director,genre,
+                        licensed_by,song_length,released_year)>
+<!ATTLIST song_details
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT artist (contributing_artist,featured_artist)>
+<!ATTLIST artist
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT album (#PCDATA)>
+<!ATTLIST album
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT producer (#PCDATA)>
+<!ATTLIST producer
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT writer (#PCDATA)>
+<!ATTLIST writer
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT director (#PCDATA)>
+<!ATTLIST director
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT genre (#PCDATA)>
+<!ATTLIST genre
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT licensed_by (#PCDATA)>
+<!ATTLIST licensed_by
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT song_length (#PCDATA)>
+<!ATTLIST song_length
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT released_year (#PCDATA)>
+<!ATTLIST released_year
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT cover_image EMPTY>
+<!ATTLIST cover_image
+  xmlns CDATA #FIXED ''
+  id NMTOKEN #REQUIRED>
+
+<!ELEMENT contributing_artist (#PCDATA)>
+<!ATTLIST contributing_artist
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT featured_artist (#PCDATA)>
+<!ATTLIST featured_artist
+  xmlns CDATA #FIXED ''>

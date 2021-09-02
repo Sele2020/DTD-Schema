@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="hhr">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="hhr_details">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:choice maxOccurs="unbounded">
+                <xs:element name="hhr_logo" type="xs:string"/>
+                <xs:element name="hhr_name" type="xs:string" />
+                <xs:element name="hhr_address">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="hhr_city" type="xs:string" />
+                      <xs:element name="hhr_state" type="xs:string" />
+                      <xs:element name="hhr_zip" type="xs:unsignedShort" />
+                      <xs:element name="hhr_country" type="xs:string" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="hhr_contact" type="xs:string" />
+                <xs:element name="hhr_site" type="xs:string" />
+                <xs:element name="hhr_info" type="xs:string" />
+              </xs:choice>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="I_was_never_there">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="song_details">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="cover_image">
+                      <xs:complexType>
+                        <xs:attribute name="id" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="artist">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="contributing_artist" type="xs:string" />
+                          <xs:element name="featured_artist" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="album" type="xs:string" />
+                    <xs:element name="producer" type="xs:string" />
+                    <xs:element name="writer" type="xs:string" />
+                    <xs:element name="director" type="xs:string" />
+                    <xs:element name="genre" type="xs:string" />
+                    <xs:element name="licensed_by" type="xs:string" />
+                    <xs:element name="song_length" type="xs:string" />
+                    <xs:element name="released_year" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Hurt_you">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="song_details">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="cover_image">
+                      <xs:complexType>
+                        <xs:attribute name="id" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="artist">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="contributing_artist" type="xs:string" />
+                          <xs:element name="featured_artist" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="album" type="xs:string" />
+                    <xs:element name="producer" type="xs:string" />
+                    <xs:element name="writer" type="xs:string" />
+                    <xs:element name="director" type="xs:string" />
+                    <xs:element name="genre" type="xs:string" />
+                    <xs:element name="licensed_by" type="xs:string" />
+                    <xs:element name="song_length" type="xs:string" />
+                    <xs:element name="released_year" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Norman_F_Rockwell">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="song_details">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="cover_image">
+                      <xs:complexType>
+                        <xs:attribute name="id" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="artist">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="contributing_artist" type="xs:string" />
+                          <xs:element name="featured_artist" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="album" type="xs:string" />
+                    <xs:element name="producer" type="xs:string" />
+                    <xs:element name="writer" type="xs:string" />
+                    <xs:element name="director" type="xs:string" />
+                    <xs:element name="genre" type="xs:string" />
+                    <xs:element name="licensed_by" type="xs:string" />
+                    <xs:element name="song_length" type="xs:string" />
+                    <xs:element name="released_year" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Freedom">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="song_details">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="cover_image">
+                      <xs:complexType>
+                        <xs:attribute name="id" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="artist">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="contributing_artist" type="xs:string" />
+                          <xs:element name="featured_artist" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="album" type="xs:string" />
+                    <xs:element name="producer" type="xs:string" />
+                    <xs:element name="writer" type="xs:string" />
+                    <xs:element name="director" type="xs:string" />
+                    <xs:element name="genre" type="xs:string" />
+                    <xs:element name="licensed_by" type="xs:string" />
+                    <xs:element name="song_length" type="xs:string" />
+                    <xs:element name="released_year" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Come_thru">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="song_details">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="cover_image">
+                      <xs:complexType>
+                        <xs:attribute name="id" type="xs:string" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="artist">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="contributing_artist" type="xs:string" />
+                          <xs:element name="featured_artist" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="album" type="xs:string" />
+                    <xs:element name="producer" type="xs:string" />
+                    <xs:element name="writer" type="xs:string" />
+                    <xs:element name="director" type="xs:string" />
+                    <xs:element name="genre" type="xs:string" />
+                    <xs:element name="licensed_by" type="xs:string" />
+                    <xs:element name="song_length" type="xs:string" />
+                    <xs:element name="released_year" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
